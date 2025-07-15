@@ -9,6 +9,7 @@
 .three {
   border-bottom: 2px solid blue;
   color: blue;
+  text-shadow: 0 0 0 red;
 }
 .four {
   border-bottom: 2px solid black;
@@ -18,7 +19,7 @@
   padding: 15px;
   margin: 12px 0;
   background-color: #ededed;
-  display: inline-block;
+  text-align: center;
 }
 
 div p {
@@ -26,4 +27,7 @@ div p {
   background-color:green ;
   border-bottom: 2px solid black;
   padding: 0px 20px;
+  width: 100px;
+  overflow: auto;
+  
 }
